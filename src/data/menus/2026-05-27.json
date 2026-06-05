@@ -1,0 +1,123 @@
+{
+  "week": "27 May 2026",
+  "categories": [
+    {
+      "category": "Starters",
+      "items": [
+        {
+          "name": "Egyptian Lentil Soup",
+          "preview": "Crispy cumin croutons, caramelized onion",
+          "desc": "Slow-cooked red lentils with cumin, finished with caramelized onions and crispy sourdough croutons in herb oil.",
+          "price": "45 EGP",
+          "tags": ["vegan", "heritage"]
+        },
+        {
+          "name": "Classic Fattoush",
+          "preview": "Pomegranate molasses, sumac vinaigrette",
+          "desc": "Heirloom tomatoes, cucumber, purslane, and radish with pomegranate molasses and sumac vinaigrette, topped with crispy pita chips.",
+          "price": "40 EGP",
+          "tags": ["vegetarian", "seasonal"]
+        },
+        {
+          "name": "Hawawshi-Stuffed Mushrooms",
+          "preview": "Harissa cream, herb oil",
+          "desc": "Jumbo portobello mushrooms filled with spiced minced beef in the style of Hawawshi, served with harissa cream and herb oil.",
+          "price": "55 EGP",
+          "tags": ["signature"]
+        },
+        {
+          "name": "Baba Ganoush & Pita",
+          "preview": "Smoked paprika oil, freshly baked pita",
+          "desc": "Smoked eggplant whipped with tahini and garlic, finished with smoked paprika oil and served with freshly baked pita.",
+          "price": "38 EGP",
+          "tags": ["vegetarian", "heritage"]
+        }
+      ]
+    },
+    {
+      "category": "Mains",
+      "items": [
+        {
+          "name": "Braised Lamb Kofta",
+          "preview": "Herb-spiced tomato broth, orzo",
+          "desc": "Slow-braised spiced lamb kofta in a rich herb-tomato broth, served over orzo with toasted pine nuts and fresh herbs.",
+          "price": "120 EGP",
+          "tags": ["signature", "heritage"]
+        },
+        {
+          "name": "Pan-Seared Sea Bass",
+          "preview": "Dukkah crust, tahini beurre blanc",
+          "desc": "Crispy-skinned sea bass with a dukkah crust, served over tahini beurre blanc with wilted seasonal greens and lemon zest.",
+          "price": "150 EGP",
+          "tags": ["chef's pick", "seasonal"]
+        },
+        {
+          "name": "Slow-Cooked Chicken",
+          "preview": "Molokhia risotto, caramelized garlic",
+          "desc": "Tender chicken thigh braised in a Molokhia-inspired sauce, served as a creamy risotto with caramelized garlic confit.",
+          "price": "110 EGP",
+          "tags": ["heritage", "comfort"]
+        },
+        {
+          "name": "Stuffed Vine Leaves (Warak Dawali)",
+          "preview": "Spiced rice, herb broth, labna",
+          "desc": "Hand-rolled vine leaves stuffed with spiced rice, minced beef, and herbs, slow-cooked in a light tomato broth. Served with labna.",
+          "price": "95 EGP",
+          "tags": ["vegetarian option", "heritage"]
+        }
+      ]
+    },
+    {
+      "category": "Sides",
+      "items": [
+        {
+          "name": "Freekeh Pilaf",
+          "preview": "Caramelized onions, golden raisins, herbs",
+          "desc": "Roasted green wheat cooked in a rich stock with caramelized onions, golden raisins, and fresh herbs.",
+          "price": "45 EGP",
+          "tags": ["vegan"]
+        },
+        {
+          "name": "Roasted Root Vegetables",
+          "preview": "Chermoula, toasted pine nuts",
+          "desc": "Seasonal roots roasted until caramelized, finished with chermoula, toasted pine nuts, and fresh pomegranate.",
+          "price": "40 EGP",
+          "tags": ["vegan", "seasonal"]
+        },
+        {
+          "name": "Saffron Rice",
+          "preview": "Dried fruits, crispy shallots",
+          "desc": "Fragrant long-grain rice cooked in saffron stock with dried apricots, currants, and crispy shallots.",
+          "price": "40 EGP",
+          "tags": ["vegan"]
+        }
+      ]
+    },
+    {
+      "category": "Desserts",
+      "items": [
+        {
+          "name": "Om Ali Brûlée",
+          "preview": "Rosewater cream, crushed pistachios",
+          "desc": "Our reimagining of the classic Egyptian bread pudding — baked with flaky pastry, cream, and nuts, with a caramelized brûlée top and rosewater cream.",
+          "price": "60 EGP",
+          "tags": ["signature", "heritage"]
+        },
+        {
+          "name": "Date & Tahini Tart",
+          "preview": "Cardamom, salted caramel",
+          "desc": "Buttery tart shell filled with Medjool date frangipane and tahini caramel, finished with cardamom whipped cream and fleur de sel.",
+          "price": "55 EGP",
+          "tags": ["signature"]
+        },
+        {
+          "name": "Basbousa Parfait",
+          "preview": "Orange blossom, clotted cream",
+          "desc": "Layers of semolina cake soaked in orange blossom syrup, clotted cream, crushed pistachios, and candied citrus.",
+          "price": "50 EGP",
+          "tags": ["heritage"]
+        }
+      ]
+    }
+  ]
+}

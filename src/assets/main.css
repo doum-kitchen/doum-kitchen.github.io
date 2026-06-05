@@ -1,0 +1,79 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-doum-cream text-doum-green antialiased;
+    font-family: 'Josefin Sans', system-ui, sans-serif;
+  }
+
+  h1, h2, h3, h4, h5 {
+    font-family: 'Amatic SC', Georgia, serif;
+  }
+
+  ::selection {
+    background-color: #4A5A2E;
+    color: #EDE5D0;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply inline-block bg-doum-green text-doum-cream text-xs tracking-widest uppercase px-8 py-4 font-sans font-bold
+           hover:bg-doum-green-dark transition-all duration-300 cursor-pointer;
+  }
+
+  .btn-outline {
+    @apply inline-block border border-doum-green text-doum-green text-xs tracking-widest uppercase px-8 py-4 font-sans font-bold
+           hover:bg-doum-green hover:text-doum-cream transition-all duration-300 cursor-pointer;
+  }
+
+  .btn-outline-cream {
+    @apply inline-block border border-doum-cream text-doum-cream text-xs tracking-widest uppercase px-8 py-4 font-sans font-bold
+           hover:bg-doum-cream hover:text-doum-green transition-all duration-300 cursor-pointer;
+  }
+
+  .section-label {
+    @apply text-[10px] font-sans font-bold tracking-ultra uppercase text-doum-brown;
+  }
+
+  .divider {
+    @apply w-12 h-px bg-doum-brown mx-auto my-6;
+  }
+
+  .divider-left {
+    @apply w-12 h-px bg-doum-brown my-6;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+/* Smooth fade for modal */
+.modal-enter-active,
+.modal-leave-active {
+  transition: opacity 0.3s ease;
+}
+.modal-enter-from,
+.modal-leave-to {
+  opacity: 0;
+}
+
+/* Mobile menu transition */
+.menu-enter-active,
+.menu-leave-active {
+  transition: all 0.25s ease;
+}
+.menu-enter-from,
+.menu-leave-to {
+  opacity: 0;
+  transform: translateY(-8px);
+}
