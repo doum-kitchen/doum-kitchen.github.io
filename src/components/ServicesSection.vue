@@ -18,10 +18,10 @@
         <div
           v-for="(service, i) in services"
           :key="service.title"
-          class="group bg-doum-green p-10 md:p-12 hover:bg-doum-green-dark transition-colors duration-300 cursor-default relative overflow-hidden"
+          class="group bg-doum-cream p-10 md:p-12 hover:bg-doum-cream/70 transition-colors duration-300 relative overflow-hidden"
         >
           <!-- Number -->
-          <span class="absolute top-8 right-10 font-serif text-7xl font-bold text-doum-cream/5 leading-none select-none">
+          <span class="absolute top-8 right-10 font-serif text-7xl font-bold text-doum-green/5 leading-none select-none">
             {{ String(i + 1).padStart(2, '0') }}
           </span>
 
@@ -32,23 +32,27 @@
               {{ service.tag }}
             </span>
 
-            <h3 class="font-serif text-4xl md:text-5xl text-doum-cream mb-4 leading-snug">
+            <h3 class="font-serif text-4xl md:text-5xl text-doum-green mb-4 leading-snug">
               {{ service.title }}
             </h3>
 
             <div class="w-8 h-px bg-doum-brown mb-5 group-hover:w-16 transition-all duration-300"></div>
 
-            <p class="font-sans text-doum-cream/65 text-sm leading-relaxed">
+            <p class="font-sans text-doum-green/65 text-sm leading-relaxed">
               {{ service.description }}
             </p>
 
             <!-- Arrow link -->
-            <div class="mt-8 flex items-center gap-2 text-doum-brown font-sans text-[11px] tracking-widest uppercase">
+            <component
+              :is="service.route ? 'RouterLink' : 'div'"
+              :to="service.route || undefined"
+              class="mt-8 flex items-center gap-2 text-doum-brown font-sans text-[11px] tracking-widest uppercase cursor-pointer"
+            >
               <span>Learn more</span>
               <svg class="w-4 h-4 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M17 8l4 4m0 0l-4 4m4-4H3"/>
               </svg>
-            </div>
+            </component>
           </div>
         </div>
       </div>
@@ -70,6 +74,7 @@ const services = [
     title: 'Elevated Home Cooking, Weekly',
     description:
       'We release a new weekly menu every Thursday — healthy home-style cooking elevated through professional techniques and thoughtful sourcing. Order for Monday delivery of your comforting, balanced meals, combining home cooking with the precision of a professional kitchen.',
+    route: '/weekly-meals',
   },
   {
     tag: 'Pop-Ups',

@@ -61,17 +61,18 @@
             <svg class="w-4 h-4 text-doum-brown mt-0.5 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/>
             </svg>
-            <a href="mailto:hello@doumkitchen.com" class="font-sans text-doum-cream/55 text-sm hover:text-doum-cream transition-colors">
-              hello@doumkitchen.com
+            <a href="mailto:doumtestkitchen@gmail.com" class="font-sans text-doum-cream/55 text-sm hover:text-doum-cream transition-colors">
+              doumtestkitchen@gmail.com
             </a>
           </li>
           <li class="flex items-start gap-3">
             <svg class="w-4 h-4 text-doum-brown mt-0.5 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/>
             </svg>
-            <a href="tel:+201000000000" class="font-sans text-doum-cream/55 text-sm hover:text-doum-cream transition-colors">
-              +20 10 0000 0000
-            </a>
+            <div class="flex flex-col gap-1">
+              <a href="tel:+201022559335" class="font-sans text-doum-cream/55 text-sm hover:text-doum-cream transition-colors">+20 102 255 9335</a>
+              <a href="tel:+201116002086" class="font-sans text-doum-cream/55 text-sm hover:text-doum-cream transition-colors">+20 111 600 2086</a>
+            </div>
           </li>
           <li class="flex items-start gap-3">
             <svg class="w-4 h-4 text-doum-brown mt-0.5 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">

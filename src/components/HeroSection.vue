@@ -45,7 +45,7 @@
           View Our Menus
         </button>
         <a href="#order" class="btn-primary w-full sm:w-auto text-center">
-          Make an Enquiry
+          Make an Inquiry
         </a>
       </div>
     </div>

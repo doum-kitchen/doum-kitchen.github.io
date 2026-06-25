@@ -70,7 +70,7 @@
           <!-- CTA -->
           <div class="mt-14 border-t border-doum-green/10 pt-10 text-center">
             <p class="font-serif text-doum-green text-3xl mb-2">Ready to place your order?</p>
-            <p class="font-sans text-doum-green/60 text-sm mb-6">Fill in the enquiry form and we'll confirm your order.</p>
+            <p class="font-sans text-doum-green/60 text-sm mb-6">Fill in the inquiry form and we'll confirm your order.</p>
             <a href="#order" @click="$emit('close')" class="btn-primary">Go to Order Form</a>
           </div>
 

@@ -5,7 +5,7 @@
       <!-- Header -->
       <div class="text-center mb-16">
         <p class="section-label text-doum-brown mb-4">Get in Touch</p>
-        <h2 class="font-serif text-6xl md:text-7xl font-bold text-doum-cream">Place an Enquiry</h2>
+        <h2 class="font-serif text-6xl md:text-7xl font-bold text-doum-cream">Place an Inquiry</h2>
         <div class="divider"></div>
         <p class="font-sans text-doum-cream/60 text-sm max-w-md mx-auto leading-relaxed">
           Whether you're ordering weekly meals or planning a private event, fill in the form
@@ -21,12 +21,12 @@
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M5 13l4 4L19 7"/>
             </svg>
           </div>
-          <h3 class="font-serif text-doum-cream text-4xl mb-3">Enquiry Received</h3>
+          <h3 class="font-serif text-doum-cream text-4xl mb-3">Inquiry Received</h3>
           <p class="font-sans text-doum-cream/60 text-sm max-w-sm mx-auto mb-8">
             Thank you, <span class="text-doum-cream">{{ form.name }}</span>. We'll be in touch
             at <span class="text-doum-cream">{{ form.email }}</span> within 24 hours.
           </p>
-          <button @click="resetForm" class="btn-outline-cream text-[11px] py-3 px-6">Send Another Enquiry</button>
+          <button @click="resetForm" class="btn-outline-cream text-[11px] py-3 px-6">Send Another Inquiry</button>
         </div>
       </Transition>
 
@@ -157,7 +157,7 @@
               class="btn-outline-cream text-[11px] py-3.5 px-10 disabled:opacity-50 disabled:cursor-not-allowed"
             >
               <span v-if="loading">Sending…</span>
-              <span v-else>Send Enquiry</span>
+              <span v-else>Send Inquiry</span>
             </button>
             <p class="font-sans text-doum-cream/40 text-[11px]">We respond within 24 hours.</p>
           </div>
@@ -177,7 +177,7 @@ const serviceOptions = [
   'Private Dining (Formal)',
   'Private Dining (Casual / Event)',
   'Pop-Up Reservation',
-  'General Enquiry',
+  'General Inquiry',
 ]
 
 const guestOptions = ['2–4', '5–8', '9–12', '13–20', '20+']
