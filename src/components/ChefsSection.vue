@@ -92,7 +92,7 @@ const chefs = [
     role: 'Co-Founder',
     initials: 'AM',
     bgColor: '#8D4B1F',
-    image: 'src/assets/chef-abdelrahman.jpeg',
+    image: new URL('../assets/chef-abdelrahman.jpeg', import.meta.url).href,
     tags: ['Mexican Cuisine', 'Croatian Gastronomy', 'BAM Burger', 'Ancestral Techniques'],
     bio: 'Born half-Egyptian and half-Mexican, Abdelrahman combines early cross-cultural food exposure, a predisposition for rigorous methods, and studies that provide a sharp strategic eye for business development. His culinary journey began in Europe, where he spent two years expanding his palate in the vibrant restaurant scenes of Croatia. Driven to find his roots, he then traveled to Mexico, where he immersed himself in the bold, ancestral art of Mexican cuisine. His Cairo burger restaurant, BAM Burger, attests to his eclectic food experiences.',
   },
