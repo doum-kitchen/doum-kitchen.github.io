@@ -57,6 +57,28 @@
       <circle cx="14" cy="76" r="1.5" stroke-width="0.9"/>
     </svg>
 
+    <!-- Cheese wedge — right, hero -->
+    <svg width="72" height="52" viewBox="0 0 82 60"
+      fill="none" stroke="#EDE5D0" stroke-linecap="round" stroke-linejoin="round"
+      style="position:absolute; top:9%; right:6%; opacity:0.20; transform:rotate(8deg)">
+      <path d="M8,50 L74,50 L74,28 C53,15 26,25 8,50 Z" stroke-width="1.6"/>
+      <path d="M8,50 C26,26 53,17 74,28" stroke-width="0.8" stroke-opacity="0.5"/>
+      <circle cx="30" cy="42" r="3" stroke-width="1.1"/>
+      <circle cx="48" cy="38" r="2.3" stroke-width="1.1"/>
+      <circle cx="40" cy="46" r="1.7" stroke-width="1.0"/>
+    </svg>
+
+    <!-- Leg of lamb — left, hero -->
+    <svg width="82" height="52" viewBox="0 0 92 60"
+      fill="none" stroke="#EDE5D0" stroke-linecap="round" stroke-linejoin="round"
+      style="position:absolute; top:8%; left:5%; opacity:0.20; transform:rotate(-6deg)">
+      <path d="M14,42 C6,30 12,15 30,12 C50,9 62,20 60,33 C58,44 46,50 34,49 C24,48 18,46 14,42 Z" stroke-width="1.6"/>
+      <path d="M59,27 C70,23 76,21 81,19" stroke-width="1.6"/>
+      <path d="M58,34 C69,32 75,32 80,31" stroke-width="1.6"/>
+      <path d="M81,19 C86,17 89,21 86,24 C90,26 87,32 81,31" stroke-width="1.4"/>
+      <path d="M59,27 C62,30 62,31 58,34" stroke-width="1.0" stroke-opacity="0.6"/>
+    </svg>
+
     <!-- Whisk — left, services -->
     <svg width="52" height="110" viewBox="0 0 62 128"
       fill="none" stroke="#EDE5D0" stroke-linecap="round" stroke-linejoin="round"
