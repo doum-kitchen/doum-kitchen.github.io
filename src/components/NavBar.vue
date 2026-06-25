@@ -5,10 +5,10 @@
     <div class="max-w-7xl mx-auto px-6 lg:px-12 py-5 flex items-center justify-between">
 
       <!-- Logo -->
-      <a href="#hero" class="group flex flex-col items-start leading-none select-none">
+      <RouterLink to="/" class="group flex flex-col items-start leading-none select-none">
         <span class="font-serif text-[2.5rem] font-bold tracking-[0.3em] text-doum-green">DOUM</span>
         <span class="font-sans text-[8px] tracking-ultra uppercase text-doum-brown mt-[-3px]">Test Kitchen</span>
-      </a>
+      </RouterLink>
 
       <!-- Desktop nav -->
       <div class="hidden md:flex items-center gap-10">
