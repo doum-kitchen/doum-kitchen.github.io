@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8"/>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Josefin+Sans:wght@300&display=swap" rel="stylesheet">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    html, body { width: 100vw; height: 100vh; overflow: hidden; background: #EDE5D0; display: flex; align-items: center; justify-content: center; }
+    .canvas {
+      width: 1080px; height: 1080px;
+      background: #EDE5D0;
+      display: flex; flex-direction: column;
+      align-items: center; justify-content: center;
+      transform-origin: center center;
+      transform: scale(var(--s, 1));
+    }
+    .doum {
+      font-family: 'Amatic SC', serif;
+      font-weight: 700;
+      font-size: 260px;
+      color: #4A5A2E;
+      letter-spacing: 14px;
+      line-height: 1;
+      white-space: nowrap;
+    }
+    .divider {
+      width: 660px; height: 1.5px;
+      background: #4A5A2E;
+      opacity: 0.35;
+      margin: 32px 0 36px;
+    }
+    .sub {
+      font-family: 'Josefin Sans', sans-serif;
+      font-weight: 300;
+      font-size: 32px;
+      color: #4A5A2E;
+      letter-spacing: 20px;
+      text-indent: 20px;
+      white-space: nowrap;
+    }
+  </style>
+  <script>
+    function setScale() {
+      const s = Math.min(window.innerWidth, window.innerHeight) / 1080;
+      document.querySelector('.canvas').style.setProperty('--s', s);
+    }
+    window.addEventListener('load', setScale);
+    window.addEventListener('resize', setScale);
+  </script>
+</head>
+<body>
+  <div class="canvas">
+    <div class="doum">DOUM</div>
+    <div class="divider"></div>
+    <div class="sub">TEST KITCHEN</div>
+  </div>
+</body>
+</html>

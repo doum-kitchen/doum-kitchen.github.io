@@ -64,8 +64,8 @@
 <script setup>
 const services = [
   {
-    tag: 'Private Dining',
-    title: 'Fine Dining at Your Home',
+    tag: 'Private Events',
+    title: 'Fine Dining, Casual Events',
     description:
       'Choose from our themed menus and we bring the full experience to your home — chefs, assistants, service, and every detail. Premium seasonal ingredients, served family-style or fully plated. You host. We take care of everything else. For more relaxed gatherings, we also create lively, informal experiences built around sharing — passing trays, beautifully crafted finger food, and themed evenings in a social, playful format.',
   },

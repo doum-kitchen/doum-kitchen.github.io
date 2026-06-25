@@ -29,7 +29,7 @@
         <div class="bg-doum-green p-10 md:p-12 relative">
           <div class="absolute top-4 right-4 w-8 h-8 border border-doum-brown/40"></div>
           <p class="font-serif text-doum-cream/90 text-3xl md:text-4xl leading-relaxed">
-            "Fine dining without pretension. Hearty, warm food
+            "Fine dining, made approachable. Hearty, warm food
             rooted in generosity and memory."
           </p>
           <div class="w-8 h-px bg-doum-brown mt-8 mb-0"></div>
@@ -64,8 +64,8 @@ const pillars = [
   },
   {
     icon: 'spoon',
-    title: 'Elegance Without Pretension',
-    body: 'We are interested in fine dining without pretension. We aspire to create hearty, warm food rooted in generosity and memory — and we are always excited to explore other culinary traditions with our own creative take.',
+    title: 'Fine Dining, Made Approachable',
+    body: 'We are interested in food that is not pretentious. We aspire to create hearty, warm food rooted in generosity and memory — and we are always excited to explore other culinary traditions with our own creative take.',
   },
   {
     icon: 'kitchen-set',

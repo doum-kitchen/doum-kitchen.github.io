@@ -37,7 +37,7 @@
                 v-if="chef.image"
                 :src="chef.image"
                 :alt="chef.name"
-                class="absolute inset-0 w-full h-full object-cover object-top"
+                class="absolute inset-0 w-full h-full object-cover object-[center_20%]"
                 @error="$event.target.style.display = 'none'"
               />
               <!-- Bottom label -->
@@ -83,7 +83,7 @@ const chefs = [
     role: 'Co-Founder',
     initials: 'BA',
     bgColor: '#4A5A2E',
-    image: null,
+    image: new URL('../assets/bahaa.jpeg', import.meta.url).href,
     tags: ['Biotechnology', 'Seattle Culinary Academy', 'Southeast Asian Cuisine', 'Egyptian Heritage'],
     bio: 'The creative force of the kitchen. With a degree from the Seattle Culinary Academy (USA) and a four-year background in Biotechnology, Bahaa combines deep culinary knowledge with a precise, laboratory-like understanding of food science. In Seattle, his training focused deeply on the philosophy of seasonal, local food. He then sharpened his technical execution over three years at celebrated Southeast Asian restaurants, and co-founded a successful bi-weekly pop-up of Latin street food. Driven by his profound interest in Egyptian heritage cuisine, Bahaa views cooking as an exact science of extraction, precision, and cultural innovation.',
   },

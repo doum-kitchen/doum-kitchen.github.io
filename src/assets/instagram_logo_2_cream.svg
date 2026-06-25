@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Version 2: Elegant — Cream bg, Dark Green text -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1080">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400&amp;family=Amatic+SC:wght@700&amp;display=swap');
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1080" height="1080" fill="#EDE5D0"/>
+
+  <!-- DOUM -->
+  <text x="540" y="530"
+        font-family="'Amatic SC', Georgia, serif"
+        font-size="230"
+        font-weight="700"
+        fill="#4A5A2E"
+        text-anchor="middle"
+        dominant-baseline="middle"
+        letter-spacing="8">DOUM</text>
+
+  <!-- Thin divider line -->
+  <line x1="200" y1="620" x2="880" y2="620" stroke="#4A5A2E" stroke-width="1.5" opacity="0.35"/>
+
+  <!-- TEST KITCHEN -->
+  <text x="540" y="700"
+        font-family="'Josefin Sans', system-ui, sans-serif"
+        font-size="68"
+        font-weight="300"
+        fill="#4A5A2E"
+        text-anchor="middle"
+        dominant-baseline="middle"
+        letter-spacing="28">TEST KITCHEN</text>
+</svg>

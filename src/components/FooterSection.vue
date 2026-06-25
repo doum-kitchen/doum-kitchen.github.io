@@ -117,10 +117,9 @@ const navLinks = [
 ]
 
 const serviceLinks = [
-  'Private Dining',
+  'Private Events',
   'Weekly Meals',
   'Pop-Ups',
-  'Private Events',
   'Product Line',
 ]
 </script>

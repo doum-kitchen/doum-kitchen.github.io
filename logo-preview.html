@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8"/>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Josefin+Sans:wght@300;400&display=swap" rel="stylesheet">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      background: #111;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 40px 20px;
+      gap: 50px;
+    }
+    h1 {
+      font-family: 'Josefin Sans', sans-serif;
+      font-weight: 300;
+      font-size: 13px;
+      letter-spacing: 8px;
+      color: #666;
+      text-transform: uppercase;
+    }
+    .row {
+      display: flex;
+      gap: 32px;
+      align-items: center;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+    .card {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 14px;
+    }
+    .label {
+      font-family: 'Josefin Sans', sans-serif;
+      font-weight: 300;
+      font-size: 11px;
+      letter-spacing: 5px;
+      color: #555;
+      text-transform: uppercase;
+    }
+    /* Square preview */
+    .square {
+      width: 280px;
+      height: 280px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      border-radius: 12px;
+      box-shadow: 0 8px 40px rgba(0,0,0,0.6);
+    }
+    /* Circle preview — as it appears on Instagram */
+    .circle {
+      width: 86px;
+      height: 86px;
+      border-radius: 50%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      overflow: hidden;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.5);
+    }
+    .circle-label {
+      font-family: 'Josefin Sans', sans-serif;
+      font-size: 9px;
+      letter-spacing: 3px;
+      color: #444;
+      text-transform: uppercase;
+    }
+
+    /* ── Colors ── */
+    .green  { background: #4A5A2E; }
+    .cream  { background: #EDE5D0; }
+    .terra  { background: #A4664A; }
+
+    /* DOUM text */
+    .doum {
+      font-family: 'Amatic SC', serif;
+      font-weight: 700;
+      white-space: nowrap;
+    }
+    .square .doum { font-size: 88px; letter-spacing: 4px; line-height: 1; }
+    .circle .doum { font-size: 28px; letter-spacing: 1px; line-height: 1; }
+
+    .on-green .doum, .on-green .sub { color: #EDE5D0; }
+    .on-green .div  { background: #EDE5D0; opacity: 0.4; }
+    .on-cream .doum, .on-cream .sub { color: #4A5A2E; }
+    .on-cream .div  { background: #4A5A2E; opacity: 0.35; }
+    .on-terra .doum, .on-terra .sub { color: #EDE5D0; }
+    .on-terra .div  { background: #EDE5D0; opacity: 0.45; }
+
+    /* Divider */
+    .square .div { width: 180px; height: 1px; margin: 12px 0 14px; }
+    .circle .div { width: 56px;  height: 1px; margin: 4px 0 5px; }
+
+    /* TEST KITCHEN */
+    .sub {
+      font-family: 'Josefin Sans', sans-serif;
+      font-weight: 300;
+      white-space: nowrap;
+    }
+    .square .sub { font-size: 13px; letter-spacing: 7px; text-indent: 7px; }
+    .circle .sub { font-size: 4px;  letter-spacing: 2px; }
+  </style>
+</head>
+<body>
+
+  <h1>Doum Test Kitchen — Instagram Profile Photo</h1>
+
+  <div class="row">
+
+    <!-- ① Classic Green -->
+    <div class="card">
+      <div class="label">① Classic Green</div>
+      <div class="square green on-green">
+        <div class="doum">DOUM</div>
+        <div class="div"></div>
+        <div class="sub">TEST KITCHEN</div>
+      </div>
+      <div class="circle green on-green">
+        <div class="doum">DOUM</div>
+        <div class="div"></div>
+        <div class="sub">TEST KITCHEN</div>
+      </div>
+      <div class="circle-label">on Instagram</div>
+    </div>
+
+    <!-- ② Elegant Cream -->
+    <div class="card">
+      <div class="label">② Elegant Cream</div>
+      <div class="square cream on-cream">
+        <div class="doum">DOUM</div>
+        <div class="div"></div>
+        <div class="sub">TEST KITCHEN</div>
+      </div>
+      <div class="circle cream on-cream">
+        <div class="doum">DOUM</div>
+        <div class="div"></div>
+        <div class="sub">TEST KITCHEN</div>
+      </div>
+      <div class="circle-label">on Instagram</div>
+    </div>
+
+    <!-- ③ Terracotta -->
+    <div class="card">
+      <div class="label">③ Bold Terracotta</div>
+      <div class="square terra on-terra">
+        <div class="doum">DOUM</div>
+        <div class="div"></div>
+        <div class="sub">TEST KITCHEN</div>
+      </div>
+      <div class="circle terra on-terra">
+        <div class="doum">DOUM</div>
+        <div class="div"></div>
+        <div class="sub">TEST KITCHEN</div>
+      </div>
+      <div class="circle-label">on Instagram</div>
+    </div>
+
+  </div>
+
+</body>
+</html>

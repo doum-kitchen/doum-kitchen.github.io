@@ -49,14 +49,6 @@
         </a>
       </div>
     </div>
-
-    <!-- Scroll indicator -->
-    <div class="absolute bottom-10 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2 text-doum-cream/40">
-      <span class="font-sans text-[9px] tracking-ultra uppercase">Scroll</span>
-      <div class="w-px h-10 bg-doum-cream/20 relative overflow-hidden">
-        <div class="absolute top-0 left-0 w-full bg-doum-cream/60 animate-scroll-line" style="height: 40%; animation: scrollLine 1.8s ease-in-out infinite;"></div>
-      </div>
-    </div>
   </section>
 </template>
 

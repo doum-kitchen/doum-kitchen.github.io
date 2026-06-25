@@ -8,7 +8,6 @@
       <PhilosophySection />
       <ServicesSection />
       <ChefsSection />
-      <MenuSection @open-menu="menuOpen = true" />
       <OrderSection />
     </main>
 
