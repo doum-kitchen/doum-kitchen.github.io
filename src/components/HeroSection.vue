@@ -17,7 +17,7 @@
     <!-- Main content -->
     <div class="relative z-10 text-center px-6 max-w-4xl mx-auto">
       <!-- Logo -->
-      <img src="../assets/doum_logo.png" alt="Doum logo" class="w-40 md:w-40 mx-auto mb-6" />
+      <img src="../assets/doum-fruit-cream.svg" alt="Doum logo" class="w-32 md:w-36 mx-auto mb-6" />
       <!-- Pre-label -->
       <p class="font-sans text-[13px] tracking-ultra uppercase text-doum-brown mb-8">Cairo · Egypt</p>
 
