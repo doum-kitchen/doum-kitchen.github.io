@@ -9,11 +9,6 @@
     <!-- Top decorative line -->
     <div class="absolute top-0 left-0 right-0 h-1 bg-doum-brown"></div>
 
-    <!-- Decorative circles -->
-    <div class="absolute top-1/4 left-[8%] w-40 h-40 rounded-full border border-doum-cream/10 pointer-events-none hidden lg:block"></div>
-    <div class="absolute bottom-1/4 right-[8%] w-64 h-64 rounded-full border border-doum-cream/10 pointer-events-none hidden lg:block"></div>
-    <div class="absolute top-1/3 right-[12%] w-20 h-20 rounded-full border border-doum-brown/30 pointer-events-none hidden lg:block"></div>
-
     <!-- Main content -->
     <div class="relative z-10 text-center px-6 max-w-4xl mx-auto">
       <!-- Logo -->
