@@ -62,31 +62,12 @@
 </template>
 
 <script setup>
-const services = [
-  {
-    tag: 'Private Events',
-    title: 'Fine Dining, Casual Events',
-    description:
-      'Choose from our themed menus and we bring the full experience to your home — chefs, assistants, service, and every detail. Premium seasonal ingredients, served family-style or fully plated. You host. We take care of everything else. For more relaxed gatherings, we also create lively, informal experiences built around sharing — passing trays, beautifully crafted finger food, and themed evenings in a social, playful format.',
-  },
-  {
-    tag: 'Weekly Meals',
-    title: 'Elevated Home Cooking, Weekly',
-    description:
-      'We release a new weekly menu every Thursday — healthy home-style cooking elevated through professional techniques and thoughtful sourcing. Order for Monday delivery of your comforting, balanced meals, combining home cooking with the precision of a professional kitchen.',
-    route: '/weekly-meals',
-  },
-  {
-    tag: 'Pop-Ups',
-    title: 'Experimentation as Storytelling',
-    description:
-      'Each pop-up revolves around seasonal and local ingredients transformed into carefully curated menus that reflect memories, places, encounters, and ideas. No two are alike — temporary, evolving, and deeply personal culinary experiences. A space to test ideas, collaborate with creatives, and celebrate whatever inspires us.',
-  },
-  {
-    tag: 'Product Line',
-    title: 'Signature Products',
-    description:
-      'Development of signature products including spice blends, preserves, and specialty items for retail distribution — each one a distillation of the techniques, ingredients, and stories that define Doum Kitchen.',
-  },
-]
+import { services as serviceData } from '../data/services.js'
+
+const services = serviceData.map((s) => ({
+  tag: s.tag,
+  title: s.cardTitle,
+  description: s.cardDescription,
+  route: `/services/${s.slug}`,
+}))
 </script>
