@@ -1,7 +1,7 @@
 <template>
   <section
     id="hero"
-    class="relative min-h-screen flex flex-col items-center justify-center bg-doum-green overflow-hidden"
+    class="relative min-h-screen flex flex-col items-center justify-center bg-doum-green overflow-hidden pt-28 pb-16"
   >
     <!-- Decorative grain overlay -->
     <div class="absolute inset-0 opacity-[0.04]" style="background-image: url('data:image/svg+xml,%3Csvg viewBox=%220 0 200 200%22 xmlns=%22http://www.w3.org/2000/svg%22%3E%3Cfilter id=%22n%22%3E%3CfeTurbulence type=%22fractalNoise%22 baseFrequency=%220.9%22 numOctaves=%224%22 stitchTiles=%22stitch%22/%3E%3C/filter%3E%3Crect width=%22100%25%22 height=%22100%25%22 filter=%22url(%23n)%22/%3E%3C/svg%3E'); background-size: 200px;"></div>
@@ -17,12 +17,12 @@
     <!-- Main content -->
     <div class="relative z-10 text-center px-6 max-w-4xl mx-auto">
       <!-- Logo -->
-      <img src="../assets/doum-fruit-cream.svg" alt="Doum logo" class="w-32 md:w-36 mx-auto mb-6" />
+      <img src="../assets/doum-fruit-cream.svg" alt="Doum logo" class="w-20 md:w-24 mx-auto mb-5" />
       <!-- Pre-label -->
       <p class="font-sans text-[13px] tracking-ultra uppercase text-doum-brown mb-8">Cairo · Egypt</p>
 
       <!-- Main logotype -->
-      <h1 class="font-serif text-[clamp(6rem,20vw,18rem)] font-bold leading-none tracking-[0.12em] text-doum-cream">
+      <h1 class="font-serif text-[clamp(4rem,13vw,11rem)] font-bold leading-none tracking-[0.12em] text-doum-cream">
         DOUM
       </h1>
 
