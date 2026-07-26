@@ -8,8 +8,8 @@
       <RouterLink to="/" class="group flex items-center gap-3.5 leading-none select-none">
         <img :src="doumFruit" alt="" class="h-11 w-auto transition-transform duration-300 group-hover:-translate-y-0.5" />
         <span class="flex flex-col items-start">
-          <span class="font-serif text-[2.5rem] font-bold tracking-[0.3em] text-doum-green">DOUM</span>
-          <span class="font-sans text-[8px] tracking-ultra uppercase text-doum-brown mt-[-3px]">Test Kitchen</span>
+          <DoumWordmark class="h-9 text-doum-green" />
+          <span class="font-sans text-[8px] tracking-ultra uppercase text-doum-brown mt-1">Test Kitchen</span>
         </span>
       </RouterLink>
 
@@ -67,7 +67,8 @@
 
 <script setup>
 import { ref, onMounted, onUnmounted } from 'vue'
-import doumFruit from '../assets/doum-fruit.svg'
+import doumFruit from '../assets/doum-fruit.png'
+import DoumWordmark from './DoumWordmark.vue'
 
 defineEmits(['open-order'])
 

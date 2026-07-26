@@ -12,13 +12,14 @@
     <!-- Main content -->
     <div class="relative z-10 text-center px-6 max-w-4xl mx-auto">
       <!-- Logo -->
-      <img src="../assets/doum-fruit-cream.svg" alt="Doum logo" class="w-20 md:w-24 mx-auto mb-5" />
+      <img src="../assets/doum-fruit.png" alt="Doum logo" class="w-20 md:w-24 mx-auto mb-5" />
       <!-- Pre-label -->
       <p class="font-sans text-[13px] tracking-ultra uppercase text-doum-brown mb-8">Cairo · Egypt</p>
 
       <!-- Main logotype -->
-      <h1 class="font-serif text-[clamp(4rem,13vw,11rem)] font-bold leading-none tracking-[0.12em] text-doum-cream">
-        DOUM
+      <h1 class="text-doum-cream">
+        <span class="sr-only">DOUM</span>
+        <DoumWordmark aria-hidden="true" class="h-[clamp(4rem,13vw,10rem)] mx-auto" />
       </h1>
 
       <!-- Sub title -->
@@ -48,6 +49,8 @@
 </template>
 
 <script setup>
+import DoumWordmark from './DoumWordmark.vue'
+
 defineEmits(['open-menu', 'open-order'])
 </script>
 

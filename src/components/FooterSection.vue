@@ -7,8 +7,8 @@
       <!-- Brand -->
       <div>
         <div class="mb-4">
-          <p class="font-serif text-5xl font-bold tracking-[0.3em] text-doum-cream">DOUM</p>
-          <p class="font-sans text-[9px] tracking-ultra uppercase text-doum-brown mt-[-2px]">Test Kitchen</p>
+          <DoumWordmark class="h-12 text-doum-cream" />
+          <p class="font-sans text-[9px] tracking-ultra uppercase text-doum-brown mt-1.5">Test Kitchen</p>
         </div>
         <p class="font-sans text-doum-cream/50 text-sm leading-relaxed max-w-xs mt-4">
           A test kitchen built on curiosity, collaboration, and deep respect for ingredients.
@@ -108,6 +108,8 @@
 </template>
 
 <script setup>
+import DoumWordmark from './DoumWordmark.vue'
+
 const navLinks = [
   { href: '#about',    label: 'About'    },
   { href: '#services', label: 'Services' },
