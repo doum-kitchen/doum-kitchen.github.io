@@ -9,7 +9,7 @@
         <img :src="doumFruit" alt="" class="h-11 w-auto transition-transform duration-300 group-hover:-translate-y-0.5" />
         <span class="flex flex-col items-start">
           <DoumWordmark class="h-9 text-doum-green" />
-          <span class="font-sans text-[8px] tracking-ultra uppercase text-doum-brown mt-1">Test Kitchen</span>
+          <DoumTestKitchen class="h-3.5 text-doum-brown mt-1.5" />
         </span>
       </RouterLink>
 
@@ -69,6 +69,7 @@
 import { ref, onMounted, onUnmounted } from 'vue'
 import doumFruit from '../assets/doum-fruit.png'
 import DoumWordmark from './DoumWordmark.vue'
+import DoumTestKitchen from './DoumTestKitchen.vue'
 
 defineEmits(['open-order'])
 

@@ -1,7 +1,7 @@
 <template>
   <section
     id="hero"
-    class="relative min-h-screen flex flex-col items-center justify-center bg-doum-green overflow-hidden pt-28 pb-16"
+    class="relative min-h-screen flex flex-col items-center justify-center bg-doum-green overflow-hidden pt-24 pb-14"
   >
     <!-- Decorative grain overlay -->
     <div class="absolute inset-0 opacity-[0.04]" style="background-image: url('data:image/svg+xml,%3Csvg viewBox=%220 0 200 200%22 xmlns=%22http://www.w3.org/2000/svg%22%3E%3Cfilter id=%22n%22%3E%3CfeTurbulence type=%22fractalNoise%22 baseFrequency=%220.9%22 numOctaves=%224%22 stitchTiles=%22stitch%22/%3E%3C/filter%3E%3Crect width=%22100%25%22 height=%22100%25%22 filter=%22url(%23n)%22/%3E%3C/svg%3E'); background-size: 200px;"></div>
@@ -12,9 +12,9 @@
     <!-- Main content -->
     <div class="relative z-10 text-center px-6 max-w-4xl mx-auto">
       <!-- Logo -->
-      <img src="../assets/doum-fruit.png" alt="Doum logo" class="w-20 md:w-24 mx-auto mb-5" />
+      <img src="../assets/doum-fruit.png" alt="Doum logo" class="w-32 md:w-40 mx-auto mb-4" />
       <!-- Pre-label -->
-      <p class="font-sans text-[13px] tracking-ultra uppercase text-doum-brown mb-8">Cairo · Egypt</p>
+      <p class="font-sans text-[13px] tracking-ultra uppercase text-doum-brown mb-6">Cairo · Egypt</p>
 
       <!-- Main logotype -->
       <h1 class="text-doum-cream">
@@ -23,15 +23,16 @@
       </h1>
 
       <!-- Sub title -->
-      <p class="font-sans text-[15px] md:text-[18px] tracking-ultra uppercase text-doum-cream/60 mt-1 mb-10">
-        Test Kitchen
+      <p class="mt-3 mb-8">
+        <span class="sr-only">Test Kitchen</span>
+        <DoumTestKitchen aria-hidden="true" class="h-[clamp(1.54rem,5vw,3.85rem)] mx-auto text-doum-cream-dark" />
       </p>
 
       <!-- Divider -->
-      <div class="w-16 h-px bg-doum-brown mx-auto mb-10"></div>
+      <div class="w-16 h-px bg-doum-brown mx-auto mb-8"></div>
 
       <!-- Tagline -->
-      <p class="font-serif text-doum-cream/80 text-2xl md:text-3xl leading-relaxed max-w-xl mx-auto mb-12">
+      <p class="font-serif text-doum-cream/80 text-2xl md:text-3xl leading-relaxed max-w-xl mx-auto mb-9">
         Where culinary science meets heritage.
       </p>
 
@@ -50,6 +51,7 @@
 
 <script setup>
 import DoumWordmark from './DoumWordmark.vue'
+import DoumTestKitchen from './DoumTestKitchen.vue'
 
 defineEmits(['open-menu', 'open-order'])
 </script>
